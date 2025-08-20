@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(215, 194, 97);
+}
+
+.container
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card
+{
+    background-color: whitesmoke;
+    height: 500px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 20px black;
+}
+
+.img
+{
+    background-color: aqua;
+    height: 190px;
+    border-radius: 15px 15px 0 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.p1
+{
+    background-image: url("./img/p1.jfif");
+}
+.p2
+{
+    background-image: url("./img/p2.jfif");
+}
+.p3
+{
+    background-image: url("./img/p3.jfif");
+}
+
+.card h3
+{
+    padding: 10px;
+    font-size: 32px;
+}
+
+.card p
+{
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.card a
+{
+    background-color: black;
+    color: wheat;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+
+    margin: 30px 90px;
+    margin-bottom: 5px;
+}
+
+.card:hover
+{
+    background-color: rgb(246, 182, 46);
+    color: cornsilk;
+    transform: scale(1.1);
+}
